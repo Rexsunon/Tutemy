@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atornel.tutemy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2477128915159039~4425251089" />
+
+        <activity android:name=".Activity.SelectActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Torrent.MainActivity"/>
+        <activity android:name=".Activity.Torrent.PostActivity" />
+        <activity android:name=".Activity.Torrent.SearchActivity" />
+        <activity android:name=".Activity.Torrent.CatActivity" />
+        <activity android:name=".Activity.GDrive.MainActivity"/>
+        <activity android:name=".Activity.GDrive.PostActivity" />
+        <activity android:name=".Activity.GDrive.SearchActivity" />
+        <activity android:name=".Activity.GDrive.CatActivity" />
+
+    </application>
+
+</manifest>

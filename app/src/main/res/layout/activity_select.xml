@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SelectActivity"
+    android:background="@color/bg"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:id="@+id/text_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:text="Select Preferred Download Method: "
+            android:textSize="17sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_method"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/gdrive_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Google Drive"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/select_btn_bg"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/torrent_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Torrent"
+                android:layout_below="@id/gdrive_btn"
+                android:background="@drawable/select_btn_bg"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

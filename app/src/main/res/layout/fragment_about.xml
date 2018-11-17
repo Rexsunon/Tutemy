@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Torrent.AboutFragment"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/bg">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView_TitleAuthore_about_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="4dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_user"
+                        android:tint="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView_TitleCompany_about_us"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Company"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_app_author_about_us"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:text="Atornel Developers"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="4dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_email"
+                        android:tint="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView_TitleEmail_about_us"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_app_email_about_us"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:text="atorneldevs@gmail.com"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="4dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_web"
+                        android:tint="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView_TitleWebsite_about_us"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Website"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_app_website_about_us"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:text="www.atornel.com"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="4dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_call"
+                        android:tint="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView_TitleContact_about_us"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_app_contact_about_us"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:text="+22999500858"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
