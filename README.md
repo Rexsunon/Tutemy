@@ -18,8 +18,8 @@ This app uses JSON feed from the **Wordpress API** to get courses from http://ww
 
 Available for use with **Wordpress blogs** only!!!.
 **All you need to do is**
-* Change the blog url u want to get feed from in the Api_Link.java. (Required)
-* Make sure the site you want to get feed from isnt blocked by cloudplare (Required)
+* Change the blog url you want to get feed from in the Api_Link.java. (Required)
+* Make sure the site you want to get feed from isnt blocked by cloudflare (Required)
 
 ```java
     public static final String TORRENT_BASE_URL = "http://www.coursesdaddy.com/";
@@ -57,5 +57,5 @@ Buy me a Coffee
 
 Free for any kind of **modification**.
 
-
+Pardon my Bad English :/
 Enjoy if you like it:)
